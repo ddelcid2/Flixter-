@@ -29,7 +29,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="134"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rED-tN-oWF">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rED-tN-oWF">
                                                     <rect key="frame" x="11" y="8" width="89" height="118"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" name="AccentColor"/>
@@ -51,7 +51,6 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="accessoryView" destination="dxT-JC-Z1g" id="hT0-j5-yn5"/>
                                             <outlet property="posterView" destination="rED-tN-oWF" id="1Lx-rn-4k0"/>
                                             <outlet property="synopsisLabel" destination="DM9-Ch-7Sl" id="3xe-0P-NFs"/>
                                             <outlet property="titleLabel" destination="0OX-hn-Yxe" id="GbD-Pj-JZr"/>
