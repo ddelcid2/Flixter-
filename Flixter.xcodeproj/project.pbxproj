@@ -20,6 +20,9 @@
 		D4ABFBE826F568DC00A03951 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4ABFBE726F568DC00A03951 /* MoviesViewController.swift */; };
 		D4ABFBEA26F585AC00A03951 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4ABFBE926F585AC00A03951 /* MovieCell.swift */; };
 		D4CE630D26F658190099324C /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = D4CE630C26F658190099324C /* AlamofireImage */; };
+		D4CE630F26FD47780099324C /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CE630E26FD47780099324C /* MovieDetailsViewController.swift */; };
+		D4CE631126FD5EE90099324C /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CE631026FD5EE90099324C /* MovieGridViewController.swift */; };
+		D4CE631726FD6AA10099324C /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CE631626FD6AA10099324C /* MovieGridCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +67,9 @@
 		D4ABFBDB26F567CE00A03951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4ABFBE726F568DC00A03951 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		D4ABFBE926F585AC00A03951 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		D4CE630E26FD47780099324C /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		D4CE631026FD5EE90099324C /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
+		D4CE631626FD6AA10099324C /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +111,6 @@
 				0C1E36E8B400287E3206F646 /* Pods-FlixterTests.debug.xcconfig */,
 				7AC12ED9BE6CAA5AB3A4264E /* Pods-FlixterTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -142,6 +147,9 @@
 				D4ABFBC526F567CE00A03951 /* Info.plist */,
 				D4ABFBE726F568DC00A03951 /* MoviesViewController.swift */,
 				D4ABFBE926F585AC00A03951 /* MovieCell.swift */,
+				D4CE630E26FD47780099324C /* MovieDetailsViewController.swift */,
+				D4CE631026FD5EE90099324C /* MovieGridViewController.swift */,
+				D4CE631626FD6AA10099324C /* MovieGridCell.swift */,
 			);
 			path = Flixter;
 			sourceTree = "<group>";
@@ -418,10 +426,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4CE630F26FD47780099324C /* MovieDetailsViewController.swift in Sources */,
 				D4ABFBB826F567C900A03951 /* AppDelegate.swift in Sources */,
 				D4ABFBBA26F567C900A03951 /* SceneDelegate.swift in Sources */,
 				D4ABFBEA26F585AC00A03951 /* MovieCell.swift in Sources */,
 				D4ABFBE826F568DC00A03951 /* MoviesViewController.swift in Sources */,
+				D4CE631126FD5EE90099324C /* MovieGridViewController.swift in Sources */,
+				D4CE631726FD6AA10099324C /* MovieGridCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
